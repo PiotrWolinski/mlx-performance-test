@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "mlx-performance-test"
+version = "0.1.0"
+description = ""
+authors = ["Piotr <piotr.wolinski.2017@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mlx = "^0.7.0"
+numpy = "^1.26.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
